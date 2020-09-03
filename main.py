@@ -21,7 +21,7 @@ elif grade1 == "D":
   gradepoint1 = 1.0
 else:
   gradepoint1 = 0
-print(f"Grade point for course 1 is: {gradepoint1}")
+print(f"Grade point for course 1 is: {float(gradepoint1)}")
 grade2 = str(input("Enter your course 2 letter grade: "))
 credit2 = float(input("Enter your course 2 credit: "))
 
@@ -43,7 +43,7 @@ elif grade2 == "D":
   gradepoint2 = 1.0
 else:
   gradepoint2 = 0
-print(f"Grade point for course 2 is: {gradepoint2}")
+print(f"Grade point for course 2 is: {float(gradepoint2)}")
 grade3 = str(input("Enter your course 3 letter grade: "))
 credit3 = float(input("Enter your course 3 credit: "))
 
@@ -65,7 +65,7 @@ elif grade3 == "D":
   gradepoint3 = 1.0
 else:
   gradepoint3 = 0
-print(f"Grade point for course 3 is: {gradepoint3}")
+print(f"Grade point for course 3 is: {float(gradepoint3)}")
 
 GPA = (gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3) 
 print(f"Your GPA is: {GPA}")
